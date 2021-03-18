@@ -1,0 +1,19 @@
+@import './variables.scss';
+
+.main{
+    background-color: $mainColor;
+}
+
+@mixin setTitle{
+    font-size: $bigButtonSize;
+    font-weight: 700;
+    color:red;
+}
+
+.mainTitle{
+    @include setTitle()
+}
+.mainContent{
+    display: flex;
+    flex-direction: row;
+}

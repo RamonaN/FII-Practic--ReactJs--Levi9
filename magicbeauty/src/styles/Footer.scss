@@ -1,0 +1,27 @@
+@import './variables.scss';
+.footerContainer{
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+ 
+   color:$mainColor;
+   text-align: center;
+    background-color: $mainColor;
+   
+
+    .logoContainer{
+        width:30%;
+        justify-content: center;
+        margin:auto;
+        text-align: center;
+        font-size: $logoSize;
+        color: $navTextColor;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     }
+
+   
+}
+
+
+

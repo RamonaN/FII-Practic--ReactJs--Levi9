@@ -1,0 +1,22 @@
+.homeContainer{
+    width:100%;
+    height:auto;
+    display: flex;
+    margin-top:5%;
+    flex-direction: row;
+
+    .dealsImage{
+        justify-content: center;
+        display: flex;
+        margin:0 auto;
+        width:90%;
+        img{
+            width:60%;
+            height: 500px;
+            margin: 0 auto;
+        }
+    }
+
+    
+    
+}

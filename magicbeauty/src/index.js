@@ -30,7 +30,7 @@ const store = createStore(
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-    <App cartLength={cartItems.length}/>
+    <App/>
     </Provider>
 
   </React.StrictMode>,

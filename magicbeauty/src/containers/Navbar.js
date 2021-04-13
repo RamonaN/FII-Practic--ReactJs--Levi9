@@ -6,7 +6,7 @@ const navItems=[
     {title:'Home',url:'/'},
     {title:'Products',url:'/products'},
     {title:"Add product",url:"/addProduct"},
-    {title:`Cart:${props.cartLength}`,url:"/cart"}]
+    {title:"Cart",url:"/cart"}]
 
 const Navbar =(props)=>{
     const generateNavList=()=>{
